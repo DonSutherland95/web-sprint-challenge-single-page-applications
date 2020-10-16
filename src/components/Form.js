@@ -27,7 +27,7 @@ const { values, submit, change, errors } = props;
             <banner>
                 <h1>Build your own pizza</h1>
             </banner>
-            <form onSubmit={onSubmit}>
+            <form onSubmit={onSubmit} id="submitForm">
                 <label>Choice of size<br />
                     Required <br />
                 </label>
@@ -152,7 +152,7 @@ const { values, submit, change, errors } = props;
                      <div>{errors.username}</div>
                     <br />
                     
-                    <button>Submit</button>        
+                    <button >Submit</button>        
             </form>    
         </div>
     )
